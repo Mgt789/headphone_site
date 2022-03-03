@@ -1,0 +1,181 @@
+/* navbar */
+.navbar-content{
+    text-align: end;
+}
+.overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9);
+    overflow-x: hidden;
+    transition: 0.5s;
+  }
+  
+  .overlay-content {
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
+
+
+
+
+/* part-1 */
+.bg{
+    background-color: #FFE162;
+    padding: 0;
+    margin: 0;
+
+   
+}
+.background img{
+    height: 100vh;
+    width: fit-content;
+    float: right;
+    filter: drop-shadow(0 10mm 5mm black)
+
+
+    
+}
+.banner-text{
+   padding: 35% 15%;
+   font-weight: bold;
+}
+.banner-text h1{
+    font-size: 3em;
+}
+.banner-text button{
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+/* part-2 */
+.text-container{
+    padding: 0px 20px;
+}
+
+/* part-3 */
+
+.heading-container{
+    background-color: rgba(187, 153, 60, 0.863);
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* part-4 */
+.headphone-background{
+    background-color: rgba(187, 153, 60, 0.863);
+}
+.headphone-background h4{
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.headphone-background p{
+    padding-left: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+.headphone-background button{
+    position: absolute;
+    margin: 30px 30px;
+    border-radius: 20px;
+    padding: 5px 20px
+}
+
+.headphone-background img:hover{
+    transform: scale(1.1,1.1);
+}
+
+/* part-5 */
+.headphone-img img{
+    height: 300px;
+    padding: 20px;
+    filter: drop-shadow(0 10mm 5mm black)
+}
+.headphone-img{
+    padding: 10px;
+}
+
+.inner-color{
+    background-color: rgba(187, 153, 60, 0.863);
+    padding: 20px;
+}
+.inner-color img:hover {
+    transform: scale(1.5,1.5);
+}
+
+
+/* part-6 */
+.heading2-container{
+    background-color: rgba(187, 153, 60, 0.863);
+    color: white;
+    padding: 20px 0;
+}
+.container h1{
+    font-size: 33px;
+}
+
+.heading2-text{
+    display: flex;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+}
+.heading2-text button{
+    border-radius: 25px;
+    padding: 5px 20px;
+}
+
+/* part-7 */
+.container h2{
+    text-align: center;
+}
+
+#overlay {
+    padding-top: 15px;
+    position: absolute;
+    z-index:100;
+    font-weight: bold;
+}
+#highlite{
+    color: rgba(187, 153, 60, 0.863);
+    font-weight: bold;
+    font-size: 70px;
+}
+
